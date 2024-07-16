@@ -5,7 +5,7 @@ import Techstacks from './components/Techstacks';
 import Timeline from './components/Timeline';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Obsessions from './components/Obsessions';
+
 
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
                 <Timeline />
                 <Projects />
                 <Contact />
-                <Obsessions />
+ 
 
             </div>
         </div>

@@ -24,15 +24,15 @@ const Hero = () => {
                         <motion.h1
                         variants={container(0)}
                         initial={{x:-100, opacity:0}}
-                        animate={{ x: 0, opacity: 1 }} className="pb-16 text-6xl font-thick tracking-tight lg:mt-16 lg:text-6xl font-thin">
-                            AJUN JO
+                        animate={{ x: 0, opacity: 1 }} className="pb-16 text-6xl tracking-tight lg:mt-16 lg:text-6xl">
+                            Ajun Jo
                         </motion.h1>
                         <motion.span 
                         variants={container(0.3)}
                         initial="hidden"
                         animate="visible"
                         className="bg-gradient-to-r from-pink-300 via-slate-400
-                         to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Data Science Intern</motion.span>
+                        to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">Data Science Intern</motion.span>
                         <motion.p 
                         variants={container(0.8)}
                         initial="hidden"

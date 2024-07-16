@@ -9,6 +9,7 @@ const Contact = () => {
           
           <p className="text-4xl inline border-b-4 border-gray-500">Reach Out!</p>
           <p className="py-6">Send Message</p>
+          <p>Email : joajune03@gmail.com</p>
         </div>
 
         <div className="flex justify-center items-center">

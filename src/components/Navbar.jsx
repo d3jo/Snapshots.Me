@@ -7,6 +7,7 @@ const Navbar = () => {
                 <h1 className="text-4xl font-bold">Snapshots.Me</h1>
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-3xl">
+            <p className="font-semibold text-sm underline">Last Edit: 2024.7</p>
             <a href="https://www.linkedin.com/in/ajunjo/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
             </a>

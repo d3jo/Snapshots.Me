@@ -2,13 +2,17 @@ import mirrorSelfie from '../assets/mirror_selfie.jpg';
 import { motion } from 'framer-motion';
 
 
-const ABOUT_TEXT = `Welcome to Snapshots.Me! I'm Ajun, and this is my personal space where you can view some aspects of me as a person and explore my professional journey, personal interests, and a bit of everything in between. Here, you’ll find my portfolio showcasing my work and a timeline of my career. Whether you're a potential employer, a fellow enthusiast, or my friend, I hope you find something that resonates with you. Thanks for visiting, and feel free to reach out!`;
+const ABOUT_TEXT = [
+    "Welcome to Snapshots.Me! I'm Ajun, and this is my personal space where you can view some aspects of me as a person and explore my professional journey, personal interests, and a bit of everything in between.",
+    "Here, you’ll find my portfolio showcasing my work and a timeline of my career. Whether you're a potential employer, a fellow enthusiast, or my friend, I hope you find something that resonates with you.",
+    "Thanks for visiting, and feel free to reach out!"
+];
 
 const About = () => {
     return (
         <div className="border-b border-neutral-900 pb-4">
             <hr></hr>
-            <h1 className="my-20 text-center text-4xl"><span className="text-neutral-500">About </span>Snapshots.Me</h1>
+            <h1 className="my-20 text-center text-5xl"><span className="text-neutral-500">About </span>Snapshots.Me</h1>
             <div className="flex flex-wrap lg:flex-nowrap">
                 <div className="w-full lg:w-1/2 lg:px-8 ">
                     <motion.p
@@ -27,7 +31,9 @@ const About = () => {
                         initial={{opacity: 1, x: 400}}
                         transition={{ duration: 0.5 }}
                         className="my-2 max-w-xl px-4 text-xl">
-                            {ABOUT_TEXT}
+                            {ABOUT_TEXT.map((paragraph, index) => (
+                            <p key={index} className="mb-9">{paragraph}</p>
+                            ))}
                         </motion.p>
                     </div>
                 </div>

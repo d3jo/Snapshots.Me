@@ -75,7 +75,18 @@ const Timeline = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 relative">
             <hr></hr>
-            <h1 className="my-20 text-center text-4xl">Experience Timeline</h1>
+            <h1 className="my-20 text-center text-5xl">Timeline</h1>
+            <h1 className="text-center">
+            <button
+                className="bg-gradient-to-r from-purple-300 via-slate-400
+                         to-blue-600 bg-clip-text text-4xl tracking-tight mr-2 mt-2 rounded
+                         bg-neutral-500 px-2 py-1 font-medium
+                         text-transparent transition duration-300"
+                onClick={() => window.open('http://localhost:5174/Ajun Jo Resume.pdf', '_blank')}
+                >
+                View Resume
+            </button>
+            </h1>
             <div className="relative p-9">
                 {/* Vertical line */}
                 <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-r-2 border-neutral-300"></div>
