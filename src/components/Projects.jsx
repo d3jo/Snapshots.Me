@@ -50,7 +50,7 @@ const Projects = () => {
                         <p className="mb-4 text-slate-300">{project.description}</p>
                         <div className="flex justify-center flex-wrap">
                             {project.technologies.map((tech, index) => (
-                                <span key={index} className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-700">
+                                <span key={index} className="mr-2 mt-2 rounded-2xl bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-700">
                                     {tech}
                                 </span>
                             ))}

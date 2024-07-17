@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 
-const MY_INTRODUCTION = `Hey there! I am a student at the University of Waterloo currently studying Statistics and Data Science which align closely to my passionate field.`;
+const MY_INTRODUCTION = `Hey! I am a student at the University of Waterloo currently studying Statistics and Data Science closely aligning to my passionate field.`;
 
 
 
