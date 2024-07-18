@@ -8,3 +8,20 @@
   font-family: "Roboto Mono", sans-serif;
 }
 
+/* index.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Add this to avoid horizontal overflow in the timeline container */
+.timeline-container {
+  overflow-x: hidden;
+}
+
+/* Ensure all children elements do not cause overflow */
+.timeline-container * {
+  max-width: 100%;
+  box-sizing: border-box;
+}

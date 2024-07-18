@@ -13,7 +13,7 @@ const Contact = () => {
                         rounded-3xl border-8 border-neutral-300 animate-float3"
                 
                          
-                onClick={() => window.open('/Ajun Jo Resume.pdf', '_blank')}
+                onClick={() => window.open('/Snapshots.Me/Ajun Jo Resume.pdf', '_blank')}
                 >
                 View Resume
             </button>
@@ -40,7 +40,7 @@ const Contact = () => {
             <textarea name="message" rows="10" placeholder="Write your message"className=" my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none">
             </textarea>
     
-            <button className="my-9 rounded-2xl bg-neutral-900 text-xl px-2 py-1 font-medium text-purple-700 mx-auto flex items-center rounded-mdhover:scale-110 duration-300">
+            <button className="my-9 rounded-2xl  bg-neutral-900 text-xl px-7 py-2 font-medium text-purple-700 mx-auto flex items-center rounded-mdhover:scale-110 duration-300">
               Send
             </button>
           </form>

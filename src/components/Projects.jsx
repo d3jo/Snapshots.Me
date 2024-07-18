@@ -27,7 +27,7 @@ const PROJECTS = [
         title: "TTS Model Denoiser",
         company: "Vosyn",
         description:
-          "A script that runs through .wav files and separates voices and background music and sounds into the output folder. My code was contributed in my company on a production level for our TTS model finetuning. It takes the translated output .wav files and outputs a better quality of voices by removing distracting noises.",
+          "A script that runs through .wav files and separates voices and background sounds then outputs a better voice quality. My code was contributed in my company on a production level for our TTS model finetuning.",
         technologies: ["PyTorch", "Python"],
       },
   ];
@@ -37,7 +37,7 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
     return (
-        <div className="flex justify-center">
+        <div className="w=full max-w flex justify-center">
             <div className="w-full max-w">
               <hr className="my-5"></hr>
                 <h1 className="my-20 text-center text-5xl">Project Gallery</h1>

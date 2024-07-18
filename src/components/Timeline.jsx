@@ -58,8 +58,6 @@ const EXPERIENCES = [
 
 import { motion } from 'framer-motion';
 
-
-
 const container = (delay) => ({
     hidden: { x : -100 , opacity: 0},
     visible: {
@@ -69,11 +67,9 @@ const container = (delay) => ({
     },
 });
 
-
-
 const Timeline = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4 relative">
+        <div className="border-b w-full border-neutral-900 pb-4 relative">
             <hr></hr>
             <h1 className="my-20 text-center text-5xl">Timeline</h1>
             
