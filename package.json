@@ -1,19 +1,21 @@
 {
+  "homepage":"http://d3jo.github.io/Snapshot.Me/",
   "name": "personalwebsite--2-",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://d3jo.github.io/Snapshots.Me",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "vite"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.11.174",
+    "@react-pdf-viewer/default-layout": "^3.11.174",
     "autoprefixer": "^10.4.19",
     "framer-motion": "^11.3.2",
     "postcss": "^8.4.39",
@@ -29,7 +31,6 @@
     "eslint-plugin-react": "^7.34.2",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
-    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1"
   }
