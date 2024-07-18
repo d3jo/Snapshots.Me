@@ -12,7 +12,7 @@ const About = () => {
     return (
         <div className="border-b border-neutral-900 pb-4">
             <hr></hr>
-            <h1 className="my-20 text-center text-5xl"><span className="text-neutral-500">About </span>Snapshots.Me</h1>
+            <h1 className="my-20 text-center text-6xl font-bold"><span className="text-neutral-500">About </span>Me</h1>
             <div className="flex flex-wrap lg:flex-nowrap">
                 <div className="w-full lg:w-1/2 lg:px-8 ">
                     <motion.p

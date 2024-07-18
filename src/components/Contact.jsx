@@ -23,7 +23,7 @@ const Contact = () => {
         
         <div className='pb-8'>
           
-          <p className="text-4xl inline border-b-4 border-gray-500">Reach Out!</p>
+          <p className="text-4xl inline border-b-4 border-gray-500 font-extrabold">Reach Out!</p>
           <p className="py-6">Phone # : 905 651 5768</p>
           <p>Email : joajune03@gmail.com</p>
           

@@ -4,9 +4,9 @@ import '../styles.css'; // Import custom styles if necessary
 
 const Techstacks = () => {
     return (
-        <div className="border-b border-neutral-800 pb-24">
+        <div className="my-10  pb-24">
             <hr></hr>
-            <h1 className="my-20 text-center text-5xl">Tech Stacks</h1>
+            <h1 className="my-20 text-center text-6xl font-bold">Tech Stacks</h1>
             <div className="flex flex-wrap items-center justify-center gap-4">
                 <div className="rounded-2xl border-4 border-neutral-800 p-4 animate-float">
                     <SiR className="text-7xl" style={{ color: '#276DC3' }} />

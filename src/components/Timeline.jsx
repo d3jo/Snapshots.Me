@@ -71,7 +71,7 @@ const Timeline = () => {
     return (
         <div className="border-b w-full border-neutral-900 pb-4 relative">
             <hr></hr>
-            <h1 className="my-20 text-center text-5xl">Timeline</h1>
+            <h1 className="my-20 text-center text-6xl font-bold">Timeline</h1>
             
             <div className="relative p-9">
                 {/* Vertical line */}
@@ -86,7 +86,7 @@ const Timeline = () => {
                             initial={{x:-50, opacity:0}}
                             animate={{ x: -100, opacity: 1 }} 
                             className={`absolute ${index % 2 === 0 ? 'right-4' : 'left-4'} transform -translate-y-2`}>
-                                <p className="mb-2 text-sm text-neutral-100">{experience.year}</p>
+                                <p className="mb-2 text-xl text-neutral-100">{experience.year}</p>
                             </motion.div>
                         </div>
                         <div className="w-full lg:w-1/2 lg:px-8 relative">
@@ -96,9 +96,9 @@ const Timeline = () => {
                             initial={{x:-100, opacity:0}}
                             animate={{ x: -30, opacity: 1 }} 
                             className="bg-neutral-800 p-6 rounded-lg shadow-lg">
-                                <h2 className="text-lg font-bold">{experience.role}</h2>
-                                <p className="text-md">{experience.company}</p>
-                                <p className="text-sm">{experience.description}</p>
+                                <h2 className="text-xl font-extrabold">{experience.role}</h2>
+                                <p className="text-lg text-blue-500">{experience.company}</p>
+                                <p className="text-md">{experience.description}</p>
                                 <div className="flex flex-wrap mt-4">
                                     {experience.technologies.map((tech, techIndex) => (
                                         <span key={techIndex} className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-700">
