@@ -4,13 +4,13 @@ const EXPERIENCES = [
       role: "ML Engineering Intern",
       company: "Vosyn",
       description: `Testing, training and resolving program bugs on TTS models, realigning output translations with video, wrote a code script that runs UVR denoiser model through TTS output audio files that separates voice and background noise using api. 
-      Data QA, preprocessing and pipelining for TTS model training such as setting up input output streams, assuring metadata files, preparing sample datasets and revising necessary files for model input suitability. 
+      Data QA, preprocessing and pipelining for TTS model training such as setting up input/output streams, assuring metadata files, preparing sample datasets and revising necessary files for model input suitability. 
       Fine-tuned XTTS-v2 model for Spanish and French, allowing it to transform texts into synthetic human voices by feeding datasets, modifying epochs, optimizer and split size corresponding to the size of datasets.
 `,
       technologies: ["Python", "Audacity","Bash", "Tensorflow", "PyTorch"],
     },
     {
-        year: "2023.5 - 2022.8",
+        year: "2023.5 - 2023.8",
         role: "Waterpark Lifeguard",
         company: "Fallsview Waterpark",
         description: `Worked in summer after finishing 2nd year during off term.
@@ -33,7 +33,7 @@ const EXPERIENCES = [
         role: "Waterpark Lifeguard",
         company: "Fallsview Waterpark",
         description: `Worked in summer after finishing first year university.
-                        Saved a couple children and weak swimmers from the deep end of wave pool. Filled out incident reports for possible future legal disputions.
+                        Saved a couple children and weak swimmers from the deep end of the wave pool. Filled out incident reports for possible future legal disputions.
   `,
         technologies: ["CPR"],
       },
