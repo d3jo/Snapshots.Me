@@ -13,7 +13,7 @@ const Navbar = () => {
             <a href="https://github.com/d3jo" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
             </a>
-            <p className="font-semibold text-sm underline">Last Touch: 2024.7</p>
+            <p className="font-semibold text-sm underline">Last Touch: 2024.9</p>
             </div>
         </nav>
     );
