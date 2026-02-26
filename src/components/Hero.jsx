@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 
-const MY_INTRODUCTION = `Statistics at University of Waterloo`;
+const MY_INTRODUCTION = `Alumni of University of Waterloo Statistics`;
 const MY_FIELD = 'Data Science, Data Modelling and Machine Learning';
 
 
